@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>GALLERY PAGE</title>
+	<link rel="stylesheet" type="text/css" href="cssstyle/style1.css">
+</head>
+<style>
+        body
+        {
+                background-image: url(image/abstract2.jpg);
+        }
+</style>
+<body>
+        <script>
+        {
+                alert("Here is the end. \n It's nice to know you. \n Pssttt!! Please give me A marks!")
+        }
+</script>
+<h1 style="text-align: center;">MY GALLERY OF LIFE</h1>
+
+<nav>
+        <a href="index.html">Home</a>
+        <a href="about_me.html">Biodata</a>
+        <a href="work_experience.html">Experience</a>
+        <a href="education.html">Education</a>
+        <a href="family.html">Family</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+
+<h1 style="text-align: center;">My life is so random and full of suprise, well maybe because I'm a carefree person! Here is some images and video that best describe me! </h1>
+
+<script>
+        function tekan(a)
+        {
+                var pic;
+                if (a==1)
+                {
+                        pic="image/vroom1.jpg"
+                }
+                else {
+                        pic="image/vroom2.jpg"
+                }
+                document.getElementById('gambar').src=pic;
+        }
+</script>
+<img src="image/vroom1.jpg" id="gambar" width="400" height="400">
+<h3>
+        <button type="button" onclick="tekan(1)">Let's ride! We have all the time!</button>
+        <button type="button" onclick="tekan(2)">EH? Night already? Awwwww!!!</button>
+</h3>
+<dl style="font-size: 20px; color: white;">Yeah, when we do good thing, time seems to flow faster.</dl>
+
+<table style="width:100%">
+         <tr>
+                <th>Flower Collection</th>
+                <td><img src="image/flower1.jpg" width="300"; height="300"><img src="image/flower2.jpg" width="300"; height="300"><img src="image/flower4.jpg" width="300"; height="300"><img src="image/flower6.jpg" width="300"; height="300"></td>
+        </tr>
+        <tr>
+                <th>View Collection</th>
+                <td><img src="image/view1.jpg" width="300"; height="300"><img src="image/view2.jpg" width="300"; height="300"><img src="image/view3.jpg" width="300"; height="300"><img src="image/view5.jpg" width="300"; height="300"><img src="image/view6.jpg" width="300"; height="300"></td>
+        </tr>
+        <tr>
+                <th>Random Collection</th>
+                <td><img src="image/random.jpg" width="300"; height="300"><img src="image/random2.jpg" width="300"; height="300"><img src="image/random3.jpg" width="300"; height="300"><img src="image/random5.jpg" width="300"; height="300"><img src="image/random6.jpg" width="300"; height="300"></td>
+        </tr>
+        <tr>
+                <th>Food Collection</th>
+                <td><img src="image/food1.jpg" width="300"; height="300"><img src="image/food2.jpg" width="300"; height="300"><img src="image/food3.jpg" width="300"; height="300"><img src="image/food4.jpg" width="300"; height="300"></td>
+        </tr>
+        <tr>
+                <th>Favourite Quotes</th>
+                <td><img src="image/ending.png" width="300"; height="300"><video width="300" height="300" controls>
+        <source src="video/vid1.mp4" type="video/mp4">
+                Your browser does not support video element
+</video><video width="300" height="300" controls>
+        <source src="video/vid2.mp4" type="video/mp4">
+                Your browser does not support video element
+</video></td>
+        </tr>
+</table>
+
+
+
+</body>
+</html>

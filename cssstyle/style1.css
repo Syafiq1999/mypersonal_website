@@ -1,0 +1,86 @@
+        body {
+            font-family: Times New Roman;
+            color: orangered;
+        }
+
+        nav {
+            background-color: black	;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav a {
+            color: gold;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 50px;
+        }
+
+        body
+        {
+        	background-image: url(image/abstract2.jpg);
+        }
+
+        p
+        {
+        	text-align: center;
+        	text-decoration: collapse;
+        	color: black;
+        	font-family: bookman old style;
+        	font-size: 50px;
+        }
+
+        h1
+        {
+        	font-size: 40px;
+        }
+
+        table, tr, td, th
+        {
+            border: solid 3px blue;
+            border-collapse: collapse;
+        }
+        td, th
+        {
+            padding: 5px;
+            font-size: 30px;
+        }
+        th 
+        {
+            background-color: greenyellow;
+            color: darkred;
+
+        }
+        td:nth-child(odd)
+        {
+            text-align: center;
+            background-color: lightgoldenrodyellow;
+        }
+        td:nth-child(even)
+        {
+            text-align: center;
+            background-color: lightgoldenrodyellow;
+        }
+        }
+        tr:hover
+        {
+            background-color: darkred;
+        }
+        ol
+        {
+            color: black;
+            font-size: 25px;  
+        }
+        
+        a:hover
+        {
+            color: hotpink;
+            background-color: black;
+            text-decoration: underline;
+        }
+        a:active
+        {
+            color: orangered;
+            background-color: transparent;
+            text-decoration: none;
+        }
